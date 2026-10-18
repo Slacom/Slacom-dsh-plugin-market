@@ -1,0 +1,17 @@
+
+# Slacom's DSH Plugin Market
+# npm plugins
+
+# ChatGPT OAuth / Codex
+dsh-codex-connect
+
+# DeepSeek Remote
+ds-harness-remote
+
+# WorkBuddy Connect
+dsh-workbuddy-connect
+
+# GitHub plugins
+
+# Slacom customized Usage Dock
+https://github.com/Slacom/dsh-usage-dock
