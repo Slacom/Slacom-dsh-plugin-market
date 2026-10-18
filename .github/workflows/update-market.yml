@@ -1,0 +1,94 @@
+
+name: Update DSH Plugin Market
+
+on:
+  # 允许在 GitHub 网页手动运行
+  workflow_dispatch:
+
+  # 修改插件清单或工作流时自动运行
+  push:
+    branches:
+      - main
+    paths:
+      - "plugins.txt"
+      - ".github/workflows/update-market.yml"
+
+  # 每天北京时间 09:17 检查更新
+  # GitHub Actions 的 cron 使用 UTC
+  schedule:
+    - cron: "17 1 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dsh-plugin-market-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 下载个人索引仓库
+      - name: Checkout personal market
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2. 下载 DSH 官方源码（包含索引生成器）
+      - name: Checkout DSH source
+        uses: actions/checkout@v4
+        with:
+          repository: deepseek-ai/deepseek-harness
+          ref: master
+          path: .dsh-upstream
+          persist-credentials: false
+
+      # 3. 配置 pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11.28.5
+          run_install: false
+
+      # 4. 配置 Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      # 5. 安装官方生成器所需依赖
+      - name: Install generator dependencies
+        working-directory: .dsh-upstream
+        run: |
+          pnpm install \
+            --frozen-lockfile \
+            --filter @deepseek-ai/dsh-plugin-market-generator... \
+            --ignore-scripts
+
+      # 6. 根据 plugins.txt 生成索引
+      - name: Generate market index
+        working-directory: .dsh-upstream
+        run: |
+          mkdir -p ../site
+
+          pnpm --filter @deepseek-ai/dsh-plugin-market-generator start \
+            --input ../plugins.txt \
+            --output ../site/index.json \
+            --title "Slacom's DSH Plugins"
+
+      # 7. 自动提交更新的索引
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A -- site
+
+          if git diff --cached --quiet; then
+            echo "No index changes."
+          else
+            git commit -m "chore: update DSH plugin market"
+            git push
+          fi
