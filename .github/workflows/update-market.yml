@@ -12,11 +12,10 @@ on:
     paths:
       - "plugins.txt"
       - ".github/workflows/update-market.yml"
-
-  # 每天北京时间 09:17 检查更新
-  # GitHub Actions 的 cron 使用 UTC
+# 每天北京时间 09:17 检查更新
   schedule:
-    - cron: "17 1 * * *"
+    - cron: "7 10,18 * * *"
+      timezone: "Asia/Shanghai"
 
 permissions:
   contents: write
