@@ -23,6 +23,16 @@
       },
       "versions": [
         {
+          "version": "0.2.0-alpha.7",
+          "publishTimestamp": 1792405960,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.7-rc.1 || 0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2"
+          }
+        },
+        {
           "version": "0.2.0-alpha.6",
           "publishTimestamp": 1792376423,
           "source": {
@@ -617,6 +627,16 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.5.14",
+          "publishTimestamp": 1792404726,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-0 <0.2.2-0 || >=0.2.2-0 <0.2.3-0"
+          }
+        },
         {
           "version": "0.5.13",
           "publishTimestamp": 1792343625,
