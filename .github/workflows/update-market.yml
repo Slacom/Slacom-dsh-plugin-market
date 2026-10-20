@@ -12,9 +12,24 @@ on:
     paths:
       - "plugins.txt"
       - ".github/workflows/update-market.yml"
-# 每天北京时间 09:17 检查更新
+
+  # 每小时的第 17 分钟检查一次更新（北京时间）。
+  #
+  # 为什么不排"每天几个固定时间点"：
+  # GitHub 的 schedule 触发器是 best-effort 交付的。官方文档写明它会
+  # "在高负载时被延迟"，而且"负载足够高时，部分排队中的任务会被丢弃"。
+  # 实测这个仓库 2026-10-19 的一次定时任务比预定时间晚了约 6 小时 45 分
+  # 才被创建。如果一天只排 2 个时间点，其中一次被延迟或丢弃，索引就会
+  # 整整一天不更新，表现出来就是"定时任务几乎不按设置的时间跑"。
+  #
+  # 所以改成高频触发：单次只跑约 30 秒，这个 job 又是幂等的（索引没变化
+  # 就不提交），多跑几次没有副作用；某一次被延迟或丢弃，最多损失一小时
+  # 的新鲜度，而不是一整天。公开仓库的 Actions 分钟数免费。
+  #
+  # 分钟刻意取 17 而不是 0，避开整点这个公认的高负载时段。
+  # 想降低频率的话改成 "17 */6 * * *"（每 6 小时）即可。
   schedule:
-    - cron: "7 10,18 * * *"
+    - cron: "17 * * * *"
       timezone: "Asia/Shanghai"
 
 permissions:
@@ -29,6 +44,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 0. 记录本次触发的真实时间，便于以后核对调度是否延迟/丢单
+      - name: Log trigger
+        env:
+          TZ: Asia/Shanghai
+        run: |
+          echo "event     = ${{ github.event_name }}"
+          echo "cron_slot = ${{ github.event.schedule }}"
+          echo "fired_at  = $(date '+%Y-%m-%d %H:%M:%S %Z (%z)')"
+          echo "expected  = 每小时 :17 附近（Asia/Shanghai）"
+
       # 1. 下载个人索引仓库
       - name: Checkout personal market
         uses: actions/checkout@v4
