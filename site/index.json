@@ -1322,7 +1322,7 @@
     {
       "name": "dsh-usage-dock",
       "title": "dsh-usage-dock",
-      "description": "套餐用量角标（Slacom 定制版）：在左侧状态栏显示 OpenCode Go / GLM Z.AI / GLM 智谱 / Kimi Code / DeepSeek 官网余额 / OpenAI Codex 订阅额度 / 小米 MiMo API 余额 / WorkBuddy 积分，支持 5小时 / 周限 / 月限窗口、DeepSeek 峰谷时段条与「设置 → 插件」配置卡片。",
+      "description": "套餐用量角标（Slacom 定制版）：在左侧状态栏显示 OpenCode Go / DeepSeek 官网余额 / OpenAI Codex 订阅额度 / 小米 MiMo API 余额 / WorkBuddy 积分，并支持自建「自定义余额渠道」（选择模型来源 + 余额接口路径，可与内置渠道同列混排、失败回退与详情卡片）；含 5小时 / 周限 / 月限窗口与 DeepSeek 峰谷时段条；另带只读模型工具 usage_status 与可选的按渠道额度策略（默认关闭）。",
       "homepage": "https://github.com/Slacom/dsh-usage-dock#readme",
       "repository": {
         "url": "https://github.com/Slacom/dsh-usage-dock"
@@ -1333,15 +1333,21 @@
           "dsh",
           "dsh-plugin",
           "opencode",
-          "glm",
-          "zhipu",
-          "kimi",
-          "moonshot",
           "usage",
-          "quota"
+          "quota",
+          "balance"
         ]
       },
       "versions": [
+        {
+          "version": "0.9.0",
+          "publishTimestamp": 1792852017,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Slacom/dsh-usage-dock",
+            "commit": "d712b7a4a8da54f34108f58fc214030512a40a2f"
+          }
+        },
         {
           "version": "0.8.4",
           "publishTimestamp": 1792230654,
