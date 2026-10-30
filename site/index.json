@@ -636,7 +636,7 @@
         "zh": "DeepSeek 远程连接"
       },
       "description": {
-        "en": "P2P-based, end-to-end encrypted remote access to DeepSeek Harness, CodeX, Claude Code, Pi, and other workspaces from DSH Desktop, the web, iOS, and Android clients.",
+        "en": "P2P-based, end-to-end encrypted remote access to DeepSeek Harness, CodeX, Claude Code, Pi, and other workspaces from web and mobile clients.",
         "zh": "基于 P2P 网络，使用端到端加密远程访问 DeepSeek Harness、CodeX、Claude Code、Pi 等工作区，支持Web和移动端。"
       },
       "author": "liguobao",
@@ -657,6 +657,16 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.6.0",
+          "publishTimestamp": 1793349393,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-0 <0.2.2-0 || >=0.2.2-0 <0.2.3-0"
+          }
+        },
         {
           "version": "0.5.23",
           "publishTimestamp": 1793234434,
