@@ -652,7 +652,8 @@
       "author": "liguobao",
       "homepage": "https://github.com/liguobao/ds-harness-remote#readme",
       "repository": {
-        "url": "https://github.com/liguobao/ds-harness-remote"
+        "url": "https://github.com/liguobao/ds-harness-remote",
+        "directory": "packages/plugin"
       },
       "metadata": {
         "keywords": [
@@ -667,6 +668,16 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.6.2",
+          "publishTimestamp": 1793640389,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-0 <0.2.2-0 || >=0.2.2-0 <0.2.3-0"
+          }
+        },
         {
           "version": "0.6.0",
           "publishTimestamp": 1793349393,
