@@ -11,9 +11,6 @@ dsh-codex-subscription
 # DeepSeek Remote
 ds-harness-remote
 
-# WorkBuddy Connect
-dsh-workbuddy-connect
-
 # GitHub plugins
 
 # Slacom customized Usage Dock
