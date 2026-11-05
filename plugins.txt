@@ -5,6 +5,9 @@
 # ChatGPT OAuth / Codex
 dsh-codex-connect
 
+# ChatGPT / Codex subscription (OAuth, quota, safe resets, web search, images, Fast mode)
+dsh-codex-subscription
+
 # DeepSeek Remote
 ds-harness-remote
 
