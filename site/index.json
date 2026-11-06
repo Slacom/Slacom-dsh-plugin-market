@@ -653,10 +653,22 @@
       "name": "dsh-codex-subscription",
       "title": {
         "en": "Codex Subscription",
+        "de": "Codex-Abonnement",
+        "es": "Suscripción de Codex",
+        "fr": "Abonnement Codex",
+        "ja": "Codex サブスクリプション",
+        "pt": "Assinatura Codex",
+        "ru": "Подписка Codex",
         "zh": "Codex 订阅"
       },
       "description": {
         "en": "Use your ChatGPT / Codex subscription for models, quota, web search and images in DSH. No API key required. Includes voice chat and phone remote control (Beta).",
+        "de": "Nutze dein ChatGPT-/Codex-Abonnement für Modelle, Nutzungsübersicht, Websuche und Bilder in DSH. Kein API-Schlüssel nötig. Mit Sprachanrufen und Fernsteuerung per Smartphone (Beta).",
+        "es": "Usa tu suscripción de ChatGPT / Codex para modelos, uso, búsqueda web e imágenes en DSH. No requiere clave API. Incluye llamadas de voz y control remoto desde el móvil (Beta).",
+        "fr": "Utilisez votre abonnement ChatGPT / Codex pour les modèles, le suivi d’utilisation, la recherche web et les images dans DSH. Aucune clé API requise. Appels vocaux et contrôle à distance depuis un téléphone inclus (Beta).",
+        "ja": "ChatGPT / Codex のサブスクリプションで DSH のモデル、使用量、Web 検索、画像生成を利用できます。API キーは不要です。音声通話とスマートフォンからの遠隔操作（Beta）にも対応。",
+        "pt": "Use sua assinatura do ChatGPT / Codex para modelos, acompanhamento de uso, busca na web e imagens no DSH. Não precisa de chave de API. Inclui chamadas de voz e controle remoto pelo celular (Beta).",
+        "ru": "Используйте подписку ChatGPT / Codex для моделей, просмотра расхода лимитов, веб-поиска и изображений в DSH. Ключ API не нужен. Доступны голосовые звонки и управление со смартфона (Beta).",
         "zh": "在 DSH 中使用 ChatGPT / Codex 订阅：模型、额度、搜索与生图，无需 API Key。支持语音对话和手机远程控制（Beta）。"
       },
       "icon": "icons/3802663fb5a5ef01.webp",
@@ -686,6 +698,16 @@
         ]
       },
       "versions": [
+        {
+          "version": "3.2.6",
+          "publishTimestamp": 1793908642,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-alpha.2 || 0.2.2-alpha.3 || 0.2.2-rc.1"
+          }
+        },
         {
           "version": "3.2.5",
           "publishTimestamp": 1793818619,
