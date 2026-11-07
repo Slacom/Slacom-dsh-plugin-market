@@ -11,6 +11,9 @@ dsh-codex-subscription
 # DeepSeek Remote
 ds-harness-remote
 
+# Agentero connector (bundle that connects Agentero to dsh)
+agentero-dsh
+
 # GitHub plugins
 
 # Slacom customized Usage Dock
