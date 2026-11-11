@@ -14,6 +14,9 @@ ds-harness-remote
 # Agentero connector (bundle that connects Agentero to dsh)
 agentero-dsh
 
+# WorkBuddy models connector (local WorkBuddy sign-in, credits overview, multi-account)
+dsh-connect-workbuddy
+
 # GitHub plugins
 
 # Slacom customized Usage Dock
