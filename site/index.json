@@ -726,6 +726,26 @@
       },
       "versions": [
         {
+          "version": "3.2.13",
+          "publishTimestamp": 1794466208,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-alpha.2 || 0.2.2-alpha.3 || >=0.2.2-rc.1 <0.2.3-0"
+          }
+        },
+        {
+          "version": "3.2.12",
+          "publishTimestamp": 1794462229,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-alpha.2 || 0.2.2-alpha.3 || >=0.2.2-rc.1 <0.2.3-0"
+          }
+        },
+        {
           "version": "3.2.11",
           "publishTimestamp": 1794404007,
           "source": {
@@ -2924,6 +2944,16 @@
       },
       "versions": [
         {
+          "version": "0.1.8",
+          "publishTimestamp": 1794452509,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.5 <0.3.0"
+          }
+        },
+        {
           "version": "0.1.7",
           "publishTimestamp": 1794111349,
           "source": {
@@ -4372,6 +4402,24 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.10.2",
+          "publishTimestamp": 1794468256,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Slacom/dsh-usage-dock",
+            "commit": "ae8e99468188c40dc17962841586c29fb655de01"
+          }
+        },
+        {
+          "version": "0.10.0",
+          "publishTimestamp": 1794459840,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Slacom/dsh-usage-dock",
+            "commit": "0a56d325ebedb61c6aa75f4bbfc66882d0cf21e2"
+          }
+        },
         {
           "version": "0.9.0",
           "publishTimestamp": 1792852017,
