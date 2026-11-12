@@ -32,7 +32,7 @@
           "codex"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 2477
+          "npm_weekly_downloads": 2178
         }
       },
       "versions": [
@@ -721,10 +721,20 @@
           "image-generation"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 10165
+          "npm_weekly_downloads": 10281
         }
       },
       "versions": [
+        {
+          "version": "3.2.14",
+          "publishTimestamp": 1794480508,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-alpha.2 || 0.2.2-alpha.3 || >=0.2.2-rc.1 <0.2.3-0"
+          }
+        },
         {
           "version": "3.2.13",
           "publishTimestamp": 1794466208,
@@ -2178,7 +2188,7 @@
           "webrtc"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 34316
+          "npm_weekly_downloads": 34437
         }
       },
       "versions": [
@@ -2986,7 +2996,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "npm_weekly_downloads": 4206
+          "npm_weekly_downloads": 4378
         }
       }
     },
@@ -3016,10 +3026,30 @@
           "credits"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 33616
+          "npm_weekly_downloads": 35033
         }
       },
       "versions": [
+        {
+          "version": "5.23.0",
+          "publishTimestamp": 1794502312,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "5.22.0",
+          "publishTimestamp": 1794487215,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+          }
+        },
         {
           "version": "5.21.4",
           "publishTimestamp": 1794397890,
@@ -4403,12 +4433,12 @@
       },
       "versions": [
         {
-          "version": "0.10.2",
-          "publishTimestamp": 1794468256,
+          "version": "0.10.5",
+          "publishTimestamp": 1794491460,
           "source": {
             "type": "git",
             "url": "https://github.com/Slacom/dsh-usage-dock",
-            "commit": "ae8e99468188c40dc17962841586c29fb655de01"
+            "commit": "a4a16fc274c54e26e4a2aa418f0320b7a10e14a8"
           }
         },
         {
