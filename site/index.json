@@ -32,7 +32,7 @@
           "codex"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 2178
+          "npm_weekly_downloads": 1941
         }
       },
       "versions": [
@@ -731,10 +731,20 @@
           "image-generation"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 10281
+          "npm_weekly_downloads": 10586
         }
       },
       "versions": [
+        {
+          "version": "3.2.15",
+          "publishTimestamp": 1794567375,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-alpha.2 || 0.2.2-alpha.3 || >=0.2.2-rc.1 <0.2.3-0"
+          }
+        },
         {
           "version": "3.2.14",
           "publishTimestamp": 1794480508,
@@ -2198,7 +2208,7 @@
           "webrtc"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 34437
+          "npm_weekly_downloads": 32769
         }
       },
       "versions": [
@@ -3006,7 +3016,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "npm_weekly_downloads": 4378
+          "npm_weekly_downloads": 4746
         }
       }
     },
@@ -3036,10 +3046,20 @@
           "credits"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 35033
+          "npm_weekly_downloads": 34952
         }
       },
       "versions": [
+        {
+          "version": "5.23.1",
+          "publishTimestamp": 1794572911,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+          }
+        },
         {
           "version": "5.23.0",
           "publishTimestamp": 1794502312,
