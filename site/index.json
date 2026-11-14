@@ -2202,11 +2202,15 @@
       "title": {
         "en": "DS Harness Remote",
         "ja": "DS Harness Remote",
+        "ru": "DS Harness Remote",
+        "uk": "DS Harness Remote",
         "zh": "DS Harness Remote"
       },
       "description": {
         "en": "P2P-based, end-to-end encrypted remote access to DeepSeek Harness, CodeX, Claude Code, Pi, and other workspaces from web and mobile clients.",
         "ja": "P2P とエンドツーエンド暗号化で、ブラウザーやモバイル端末から DeepSeek Harness、CodeX、Claude Code、Pi などのワークスペースにリモート接続します。",
+        "ru": "Удалённый доступ к рабочим областям DeepSeek Harness, CodeX, Claude Code, Pi и других агентов из браузера и мобильных клиентов — по P2P со сквозным шифрованием.",
+        "uk": "Віддалений доступ до робочих просторів DeepSeek Harness, CodeX, Claude Code, Pi та інших агентів із браузера й мобільних клієнтів — через P2P з наскрізним шифруванням.",
         "zh": "基于 P2P 网络，使用端到端加密远程访问 DeepSeek Harness、CodeX、Claude Code、Pi 等工作区，支持Web和移动端。"
       },
       "icon": "icons/541a5473e202dfe8.png",
@@ -2232,6 +2236,16 @@
         }
       },
       "versions": [
+        {
+          "version": "0.6.5",
+          "publishTimestamp": 1794677956,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-0 <0.2.2-0 || >=0.2.2-0 <0.2.3-0"
+          }
+        },
         {
           "version": "0.6.4",
           "publishTimestamp": 1794144859,
