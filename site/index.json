@@ -32,7 +32,7 @@
           "codex"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 2316
+          "npm_weekly_downloads": 2217
         }
       },
       "versions": [
@@ -2242,7 +2242,7 @@
           "webrtc"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 30117
+          "npm_weekly_downloads": 31120
         }
       },
       "versions": [
@@ -3060,7 +3060,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "npm_weekly_downloads": 4155
+          "npm_weekly_downloads": 3628
         }
       }
     },
@@ -3090,10 +3090,30 @@
           "credits"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 34342
+          "npm_weekly_downloads": 34445
         }
       },
       "versions": [
+        {
+          "version": "5.24.9",
+          "publishTimestamp": 1794816112,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "5.24.8",
+          "publishTimestamp": 1794797279,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+          }
+        },
         {
           "version": "5.24.7",
           "publishTimestamp": 1794755033,
