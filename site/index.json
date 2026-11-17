@@ -32,7 +32,7 @@
           "codex"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 2217
+          "npm_weekly_downloads": 2107
         }
       },
       "versions": [
@@ -741,7 +741,7 @@
           "image-generation"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 10764
+          "npm_weekly_downloads": 11166
         }
       },
       "versions": [
@@ -2262,7 +2262,7 @@
           "webrtc"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 31120
+          "npm_weekly_downloads": 30658
         }
       },
       "versions": [
@@ -3080,7 +3080,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "npm_weekly_downloads": 3628
+          "npm_weekly_downloads": 3352
         }
       }
     },
@@ -3110,10 +3110,30 @@
           "credits"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 34445
+          "npm_weekly_downloads": 35445
         }
       },
       "versions": [
+        {
+          "version": "5.24.13",
+          "publishTimestamp": 1794907493,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "5.24.11",
+          "publishTimestamp": 1794900915,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+          }
+        },
         {
           "version": "5.24.10",
           "publishTimestamp": 1794861665,
@@ -4600,6 +4620,7 @@
       "name": "dsh-usage-dock",
       "title": "dsh-usage-dock",
       "description": "套餐用量角标（Slacom 定制版）：在左侧状态栏显示 OpenCode Go / DeepSeek 官网余额 / OpenAI Codex 订阅额度 / 小米 MiMo API 余额 / WorkBuddy 积分，并支持自建「自定义余额渠道」（选择模型来源 + 余额接口路径，可与内置渠道同列混排、失败回退与详情卡片）；含 5小时 / 周限 / 月限窗口与 DeepSeek 峰谷时段条；另带只读模型工具 usage_status 与可选的按渠道额度策略（默认关闭）。",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNiIgaGVpZ2h0PSIzNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj4KICA8IS0tIOmSseWMheWbvuagh++8mk1hdGVyaWFsIFN5bWJvbHPjgIx3YWxsZXTjgI3vvIhBcGFjaGUtMi4w77yJ77yM55So5LqO5qGM6Z2i56uv5o+S5Lu25YWl5Y+jIC8g6K6+572u5Li76aG15Zu+5qCH44CCCiAgICAgICDmnaXmupDkuI7orrjlj6/op4EgZG9jcy9hc3NldHMvd2FsbGV0L05PVElDRS5tZCAtLT4KICA8cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik02IDIwcS0xLjY1IDAtMi44MjUtMS4xNzVUMiAxNlY4cTAtMS42NSAxLjE3NS0yLjgyNVQ2IDRoMTJxMS42NSAwIDIuODI1IDEuMTc1VDIyIDh2OHEwIDEuNjUtMS4xNzUgMi44MjVUMTggMjB6TTYgOGgxMnEuNTUgMCAxLjA1LjEyNXQuOTUuNFY4cTAtLjgyNS0uNTg3LTEuNDEyVDE4IDZINnEtLjgyNSAwLTEuNDEyLjU4OFQ0IDh2LjUyNXEuNDUtLjI3NS45NS0uNFQ2IDhtLTEuODUgMy4yNWwxMS4xMjUgMi43cS4yMjUuMDUuNDUgMHQuNDI1LS4ybDMuNDc1LTIuOXEtLjI3NS0uMzc1LS43LS42MTJUMTggMTBINnEtLjY1IDAtMS4xMzcuMzM4dC0uNzEzLjkxMiIvPgo8L3N2Zz4K",
       "homepage": "https://github.com/Slacom/dsh-usage-dock#readme",
       "repository": {
         "url": "https://github.com/Slacom/dsh-usage-dock"
@@ -4616,6 +4637,15 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.11.0",
+          "publishTimestamp": 1794894062,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Slacom/dsh-usage-dock",
+            "commit": "c54e0ead6373e1f18c6a5ecef7f4ea3ed64daeee"
+          }
+        },
         {
           "version": "0.10.5",
           "publishTimestamp": 1794491460,
