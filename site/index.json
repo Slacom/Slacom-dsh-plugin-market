@@ -32,7 +32,7 @@
           "codex"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 2107
+          "npm_weekly_downloads": 2239
         }
       },
       "versions": [
@@ -741,10 +741,40 @@
           "image-generation"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 11166
+          "npm_weekly_downloads": 11132
         }
       },
       "versions": [
+        {
+          "version": "3.2.24",
+          "publishTimestamp": 1794996651,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-alpha.2 || 0.2.2-alpha.3 || >=0.2.2-rc.1 <0.2.3-0"
+          }
+        },
+        {
+          "version": "3.2.23",
+          "publishTimestamp": 1794986768,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-alpha.2 || 0.2.2-alpha.3 || >=0.2.2-rc.1 <0.2.3-0"
+          }
+        },
+        {
+          "version": "3.2.22",
+          "publishTimestamp": 1794980006,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-alpha.2 || 0.2.2-alpha.3 || >=0.2.2-rc.1 <0.2.3-0"
+          }
+        },
         {
           "version": "3.2.21",
           "publishTimestamp": 1794955823,
@@ -2282,7 +2312,7 @@
           "webrtc"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 30658
+          "npm_weekly_downloads": 30928
         }
       },
       "versions": [
@@ -3100,7 +3130,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "npm_weekly_downloads": 3352
+          "npm_weekly_downloads": 2945
         }
       }
     },
@@ -3130,10 +3160,20 @@
           "credits"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 35445
+          "npm_weekly_downloads": 37638
         }
       },
       "versions": [
+        {
+          "version": "5.24.15",
+          "publishTimestamp": 1795001271,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+          }
+        },
         {
           "version": "5.24.14",
           "publishTimestamp": 1794925014,
@@ -4667,6 +4707,15 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.11.1",
+          "publishTimestamp": 1794987576,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Slacom/dsh-usage-dock",
+            "commit": "7db237b5f6dde5d085528c97753ece6090de18d1"
+          }
+        },
         {
           "version": "0.11.0",
           "publishTimestamp": 1794894062,
