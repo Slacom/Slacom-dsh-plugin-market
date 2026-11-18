@@ -3165,6 +3165,26 @@
       },
       "versions": [
         {
+          "version": "5.24.17",
+          "publishTimestamp": 1795027726,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "5.24.16",
+          "publishTimestamp": 1795022435,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+          }
+        },
+        {
           "version": "5.24.15",
           "publishTimestamp": 1795001271,
           "source": {
@@ -4707,6 +4727,33 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.11.2",
+          "publishTimestamp": 1795009104,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Slacom/dsh-usage-dock",
+            "commit": "b727cba10f96130c88c18be5135f2abc9600f018"
+          }
+        },
+        {
+          "version": "0.11.2-alpha.2",
+          "publishTimestamp": 1795016272,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Slacom/dsh-usage-dock",
+            "commit": "b64b503606b2c4d2c0e92dd235e31c42840b7f8f"
+          }
+        },
+        {
+          "version": "0.11.2-alpha.1",
+          "publishTimestamp": 1795015259,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Slacom/dsh-usage-dock",
+            "commit": "f7fc691ef3a4073190224fa375f36d60667614c2"
+          }
+        },
         {
           "version": "0.11.1",
           "publishTimestamp": 1794987576,
