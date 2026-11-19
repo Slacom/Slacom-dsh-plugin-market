@@ -2337,6 +2337,16 @@
       },
       "versions": [
         {
+          "version": "0.6.6",
+          "publishTimestamp": 1795106383,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.1 <0.3.0-0 || >=0.2.1-0 <0.2.2-0 || >=0.2.2-0 <0.2.3-0"
+          }
+        },
+        {
           "version": "0.6.5",
           "publishTimestamp": 1794677956,
           "source": {
@@ -4767,6 +4777,15 @@
         ]
       },
       "versions": [
+        {
+          "version": "0.11.3",
+          "publishTimestamp": 1795103058,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Slacom/dsh-usage-dock",
+            "commit": "cfababebe978ecd75ebbb83071962b977712c77d"
+          }
+        },
         {
           "version": "0.11.2",
           "publishTimestamp": 1795009104,
