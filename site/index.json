@@ -4737,6 +4737,15 @@
           }
         },
         {
+          "version": "0.11.2-alpha.3",
+          "publishTimestamp": 1795056645,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Slacom/dsh-usage-dock",
+            "commit": "c3e47eecdf769b338eb6d45d748ca0e20b5930cf"
+          }
+        },
+        {
           "version": "0.11.2-alpha.2",
           "publishTimestamp": 1795016272,
           "source": {
