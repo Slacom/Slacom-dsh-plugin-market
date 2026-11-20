@@ -32,7 +32,7 @@
           "codex"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 2305
+          "npm_weekly_downloads": 2685
         }
       },
       "versions": [
@@ -751,10 +751,30 @@
           "image-generation"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 11782
+          "npm_weekly_downloads": 11519
         }
       },
       "versions": [
+        {
+          "version": "3.2.27",
+          "publishTimestamp": 1795168745,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-alpha.2 || 0.2.2-alpha.3 || >=0.2.2-rc.1 <0.2.3-0"
+          }
+        },
+        {
+          "version": "3.2.26",
+          "publishTimestamp": 1795150652,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-alpha.2 || 0.2.2-alpha.3 || >=0.2.2-rc.1 <0.2.3-0"
+          }
+        },
         {
           "version": "3.2.25",
           "publishTimestamp": 1795071527,
@@ -3160,7 +3180,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "npm_weekly_downloads": 2743
+          "npm_weekly_downloads": 2299
         }
       }
     },
@@ -3190,7 +3210,7 @@
           "credits"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 39209
+          "npm_weekly_downloads": 40564
         }
       },
       "versions": [
