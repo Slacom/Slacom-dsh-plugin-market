@@ -32,7 +32,7 @@
           "codex"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 2066
+          "npm_weekly_downloads": 1923
         }
       },
       "versions": [
@@ -751,10 +751,20 @@
           "image-generation"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 11249
+          "npm_weekly_downloads": 10485
         }
       },
       "versions": [
+        {
+          "version": "3.2.36",
+          "publishTimestamp": 1795876060,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "0.1.7-rc.2 || 0.2.0-rc.1 || 0.2.0-rc.2 || 0.2.1-alpha.1 || 0.2.1-alpha.2 || 0.2.1-alpha.3 || 0.2.1-alpha.4 || 0.2.1-alpha.5 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5 || 0.2.2-alpha.2 || 0.2.2-alpha.3 || >=0.2.2-rc.1 <0.2.3-0 || >=0.2.3-alpha.2 <0.2.4-0"
+          }
+        },
         {
           "version": "3.2.35",
           "publishTimestamp": 1795809429,
@@ -2432,7 +2442,7 @@
           "webrtc"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 40611
+          "npm_weekly_downloads": 37988
         }
       },
       "versions": [
@@ -3290,7 +3300,7 @@
       ],
       "metadata": {
         "sortKeys": {
-          "npm_weekly_downloads": 2020
+          "npm_weekly_downloads": 2005
         }
       }
     },
@@ -3320,10 +3330,30 @@
           "credits"
         ],
         "sortKeys": {
-          "npm_weekly_downloads": 36535
+          "npm_weekly_downloads": 37621
         }
       },
       "versions": [
+        {
+          "version": "5.34.2",
+          "publishTimestamp": 1795880507,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+          }
+        },
+        {
+          "version": "5.34.1",
+          "publishTimestamp": 1795851822,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+          }
+        },
         {
           "version": "5.34.0",
           "publishTimestamp": 1795786949,
